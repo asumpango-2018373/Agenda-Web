@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style-form.css">
+  <link rel="stylesheet" href="css/style-navbar.css">
+  <title>Agregar Usuario</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">Cont. Favoritos</div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a href="contactos.html">Contactos</a></li>
+      <li><a href="index.html">Sign Out</a></li>
+      <div class="imgn-profile">
+        <a href="perfil.html"><img src="img/my-perfil.webp" class="img-profile"></a>
+      </div>
+    </ul>
+  </nav>
+  <center>
+    <div class="container">
+
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombres</span>
+            <input type="text" placeholder="Nombres del contacto" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Apellidos</span>
+            <input type="text" placeholder="Apellidos del contacto" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email (Opcional)</span>
+            <input type="text" placeholder="Correo Electrónico" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Número de teléfono</span>
+            <input type="text" placeholder="Número telefónico" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Descripción (Opcional)</span>
+            <input type="text" placeholder="Descripción" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Dirección</span>
+            <input type="text" placeholder="Dirección" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </center>
+</body>
+
+</html>

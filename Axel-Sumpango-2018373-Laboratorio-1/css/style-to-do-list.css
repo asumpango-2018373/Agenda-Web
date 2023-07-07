@@ -1,0 +1,79 @@
+:root {
+    --primary: #15ff00;
+    --secondary: #2b39b9;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: #575a57;
+}
+
+*:first-letter {
+    text-transform: capitalize;
+    
+}
+
+.bordeRondo {
+    border-radius: 5px;
+}
+
+.list {
+    margin: 25px auto;
+    padding: 25px;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    max-width: 350px;
+}
+
+form {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+input {
+    border: none;
+    padding-left: 10px;
+    background-color: #575a57;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btnAgregar,
+.btnOrdenar {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnAgregar {
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #15ff00;
+}
+
+.btnOrdenar {
+    background-color: var(--secondary);
+    color:rgb(36, 36, 36);
+}
+
+.tarea {
+    background-color: var(--primary);
+    padding: 15px;
+    margin-top: 15px;
+    color: rgb(36, 34, 34);
+    cursor: pointer;
+}
+
+.done {
+    background-color: rgb(236, 6, 6);
+    text-decoration: line-through;
+    color: white;
+}
